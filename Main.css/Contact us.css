@@ -1,0 +1,24 @@
+#power
+{
+   
+    margin-left: 10px auto;
+}
+
+#information 
+{
+    margin: 50px auto;
+    width: 980px;
+
+}
+#former {
+    outline: black 5px solid; /* borda externa azul de 2px de espessura */
+    padding: 10px; /* espaçamento interno de 10 pixel (bolinha) */
+    width: 550px; /*largura do formulário */
+    margin: 110px auto; /* espaçamento externo de 40 pixel centralizado */
+
+}
+#comentarios, #name{
+    margin: 10px auto;
+    display: inline;
+    outline: black 1px solid;
+}

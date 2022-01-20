@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="Main.css/siteCSS.css">
+        <title> About Us</title>
+        <meta charset="utf-8"/>
+        <link rel="shortcut icon" href="./Fotos/gear.png"/>
+        <style>
+            #formulário {
+                outline: black 5px solid; 
+                padding: 10px; 
+                width: 600px;
+                margin: 40px auto;
+            }
+            #but{
+                margin: 10px auto;
+                display: inline;
+                outline: black 1px solid;
+            }
+            .body{
+                background-image: url("./Fotos/fundo.jpg");
+            }
+        
+        </style>
+        <script>
+            function registro() 
+            { 
+                alert(`Hey mate, thanks for your feedback!`)
+                
+            }
+        </script>
+    </head>
+    <body>
+
+        <header class="menu-principal">
+            <main>
+                <div class="header-1">
+                    <div class="logo">
+                        <a href="index.html">
+                        <img src="./Fotos/LOGO empresa (1).png" width="100px" height="50px">
+                        </a> 
+                    </div>
+                    <div class="redes_sociais">
+                        <ul>
+                            <li>
+                                <a href="https://pt-br.facebook.com/login/web/">
+                                <img src="./Fotos/logo-facebook.png" img-responsive img-thumbnail width="27px"/>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/login?lang=pt">
+                                    <img src="./Fotos/logo-twitter.png" img-resposive img-thumbnail width="25px" id="logo-twitter"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/accounts/login/?hl=pt-br">
+                                    <img src="./Fotos/logo-instagram.png" img-responsive img-thumbnail width="25px"/>
+                                </a>
+                            </li>
+                            <li>
+                                <div class="menu-suspenso">
+                                    <img src="./Fotos/usuario-logo.png" click img-responsive img-thumbnail width="25px"/> 
+                                    
+                                        <div class="conteudo-menu-suspenso">
+                                            <a href="./profile/Login.html"> Login</a>
+                                            <a href="./profile/Sign in.html"> Sign in</a>
+                                        </div>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </header>
+        <main class="cap-100 menu-urls">
+            <div class="header-2">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="./index.html"> Home </a>
+                        </li>
+                        <li>
+                            <a href="./About  us.html"> About Us </a>
+                        </li>
+                        <li>
+                            <a href="./Service.html"> Service </a>
+                        </li>
+                        <li>
+                            <a href="./Pages.html"> Pages </a>
+                        </li>
+                        <li>
+                            <a href="./Blog.html"> Blog </a>
+                        </li>
+                        <li>
+                            <a href="./Contact Us.html"> Contact Us </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="busca">
+                    <input type="text" placeholder="Search something" text/>
+                </div>
+            </div>
+        </main>
+       <div>
+        <br> <br> <br> <br>
+       <div>
+        <div id="formulário">
+    
+            <h2 title="read our actions in second plan" id="titulo"> About us </h2>
+            <hr id="texto">
+            
+                       <pre id="texto" >
+Hello everyone,
+
+    Do you know what represents this company?  Even though  it  doesn't  appers 
+    sure to your  mind, it's a  good  entity,  with   projects  against illegal
+    extraction of natural resorces, enviroment destructions and  others to deal 
+    with  such terrible than families' issues,  desorders  neglisations  and in 
+    much  other  cases.  In  summarize,  if you  help  us  during  this  market 
+    competition,  we going  to  back the  favor,  helping  the  others, who are 
+    without good condictions.
+
+
+                            
+                       </pre>
+                        <label id="texto"> Are these informations interesting to you? </label> <br>
+                        <form id="sex0123">
+                            <input type="radio" id="sex0" name="sex">
+                                <label onClick="instructions(this.value)" id="texto" for="sex0">It clarify my mind</label>
+                            </input> <br>
+                            <input type="radio" id="sex0" name="sex">
+                                <label onClick="instructions(this.value)" id="texto" for="sex0">It's just good</label>
+                            </input> <br>
+                            <input type="radio" id="sex0" name="sex">
+                                <label onClick="instructions(this.value)" id="texto" for="sex0">Not so much</label>
+                            </input> <br>
+                            <input type="radio" id="sex0" name="sex" checked>
+                                <label onClick="instructions(this.value)" id="texto" for="sex0">non awnser</label>
+                            </input> <br>
+                        
+
+                            <div id="botao">
+                                <button onClick="registro()" type="button" id="but"> Send </button>
+                            </div>
+                        </form> 
+        </div>
+       </div>
+        <script type="text/javascript" src="./Main.js/site.js"></script>
+    </body>
+</html>

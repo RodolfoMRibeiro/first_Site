@@ -1,0 +1,14 @@
+#formulário {
+    outline: black 5px solid; /* borda externa azul de 2px de espessura */
+    padding: 10px; /* espaçamento interno de 10 pixel (bolinha) */
+    width: 400px; /*largura do formulário */
+    margin: 40px auto; /* espaçamento externo de 40 pixel centralizado */
+    }
+    #name, #apelido, #email, #dia, #mes, #ano, #pass, #but{
+        margin: 10px auto;
+        display: inline;
+        outline: black 1px solid;
+    }
+    #botao a{
+        text-decoration:none;
+    }

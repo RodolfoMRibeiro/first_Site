@@ -1,0 +1,30 @@
+#information 
+{
+    margin: 50px auto;
+    width: 980px;
+
+}
+#formulário {
+    outline: black 5px solid; /* borda externa azul de 2px de espessura */
+    padding: 10px; /* espaçamento interno de 10 pixel (bolinha) */
+    width: 550px; /*largura do formulário */
+    margin: 40px auto; /* espaçamento externo de 40 pixel centralizado */
+
+}
+#name, #apelido, #email, #dia, #mes, #ano, #pass, #but, #pass2{
+    margin: 10px auto;
+    display: inline;
+    outline: black 1px solid;
+}
+/* regra se aplica aos itens do menu */
+#menu ul li{
+    display: inline; /* Os itens da lista ficarão em uma única linha*/
+    padding: 50px; /*Espaçamento interno entre os itens*/
+}
+/* regra se aplica ao link dos itens da lista do menu */
+#menu ul li a {
+    background-color: lightblue; /* cor do fundo*/
+    color: white; /*Cor do texto */
+    text-decoration: none; /* sem sublinhado */
+    border-bottom: 3px solid hsl(27, 98%, 50%) /* borda em baixo com um sistema de cores X*/ 
+}
